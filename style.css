@@ -11,8 +11,7 @@
     display: flex;
     z-index: 100;
     position:fixed ;
-   /* align-items: center;
-   justify-items: center; */
+  
 
 }
 .navbar{
@@ -24,7 +23,7 @@
     height: 60px;
     margin: auto ;
     border-radius: 16px;
-    /* position: relative; */
+   
     
 }
 .navbar #logo{
@@ -33,12 +32,9 @@
   color: white;
   text-decoration: none;
 }
-/* .nav-right-content{
-    display: flex;
-} */
+
 .links{
-    /* display: flex;
-    float:right; */
+   
     display: flex;
     flex-wrap: wrap;
     margin-right: 20px;
@@ -46,15 +42,13 @@
 .links a{
     color: white;
     text-decoration: none;
-    /* border: 2px solid white; */
+   
     border-radius: 8px;
     padding: 5px 10px;
     margin: auto 10px;
     
     font-weight: bold;
-    /* display: inline-block;
-    margin: auto;
-     */
+  
 }
 .links a:hover{
     background-color:rgb(255, 255, 255) ;
@@ -72,19 +66,18 @@
     background-color: transparent;
     border: none;
     margin-right: 30px;
-    /* position: relative; */
-    /* width: 40px; */
+  
    
 
 }
 .hamburger span{
-    /* display: inline-block; */
+   
     border-bottom: 3.5px solid white;
     border-radius: 14px;
     width: 33px;
     margin: 3px auto;
     transition: .3s;
-    /* background-color: #000; */
+   
 }
 .hamburger:hover span:nth-child(2) {
     border-bottom:3.5px solid  rgb(166, 176, 233);
@@ -107,9 +100,7 @@
     .nav-menu{
         display: block;
     }
-    /* .mob{
-        display: block;
-    } */
+  
    
 }
 .mob-menu{
@@ -124,8 +115,7 @@
    position: fixed;
    top: 80px;
    
-   /* position: relative; */
-   /* top: -20px; */
+  
 }
 .mob-menu a{
     display: block;
@@ -144,6 +134,7 @@
 .mob{
     display: none;
 }
+
 
 /* top-section */
 .top-sec{
