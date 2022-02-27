@@ -78,199 +78,199 @@
 
   /* footer */
   .bottom-sec{
-      background-image: url("images/wave.svg");
-      background-size: cover;
-      background-position: center;
-      height: 465px;
-      position: relative;
-  }
-  
-  .bottom-content{
-    width: 60%;
-    height: 58%;
-    position: absolute;
-    bottom: 100px;
-    left: 25% ;
-    margin:  20px;
-    background-color: white;
-    display: flex;
-   justify-content: space-evenly;
-   flex-wrap: wrap;
-    box-shadow: -10px -10px 15px rgba(212, 212, 241, 0.609);
-   border-radius: 16px;
-   
+    background-image: url("images/wave.svg");
+    background-size: cover;
+    background-position: center;
+    height: 465px;
+    position: relative;
+}
+
+.bottom-content{
+  width: 60%;
+  height: 58%;
+  position: absolute;
+  bottom: 100px;
+  left: 25% ;
+  margin:  20px;
+  background-color: white;
+  display: flex;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+  box-shadow: -10px -10px 15px rgba(212, 212, 241, 0.609);
+ border-radius: 16px;
+ 
 }
 /* Heading of all div*/
- .subcontent h2{
-    width: fit-content;
-    margin-bottom: auto;
-     margin-left: 2px;
-    position: relative;
-    margin-top: 20px;
-    padding-bottom: 10px;
+.subcontent h2{
+  width: fit-content;
+  margin-bottom: auto;
+   margin-left: 2px;
+  position: relative;
+  margin-top: 20px;
+  padding-bottom: 10px;
 }
- .underline1{
-     width:100%;
+.underline1{
+   width:100%;
+ 
    
-     
-     height: 3px;
-     background: white;
-     border-radius: 50px;
-     position: absolute;
-     overflow: hidden;
+   height: 3px;
+   background: white;
+   border-radius: 50px;
+   position: absolute;
+   overflow: hidden;
+}
+.underline1 span{
+   width: 100px;
+   height: 100%; 
+   border-radius: 5px;
+   background: linear-gradient(to top right, #cc0070 40%, #ff66cc 100%);
+   position: absolute;
+   overflow: hidden;
+   animation: moving 2s  linear infinite;
+}
+@keyframes moving{
+  0%{
+      left: -150px;
+  }
+  
+ 100% {
+      left: 134px;
+  }
  }
- .underline1 span{
-     width: 100px;
-     height: 100%; 
-     border-radius: 5px;
-     background: linear-gradient(to top right, #cc0070 40%, #ff66cc 100%);
-     position: absolute;
-     overflow: hidden;
-     animation: moving 2s  linear infinite;
- }
- @keyframes moving{
-    0%{
-        left: -150px;
-    }
-    
-   100% {
-        left: 134px;
-    }
-   }
 
-   
+ 
 
 /* social icon of follow us*/
 
 .subcontent a .fab {
-    font-size: 35px;
-     color: black;
-     margin: 10px;
-     margin-top: 30px;
- }
- #facebook{
-     color: #3b5998;
- }
- #instagram{
-     color: black;
-     
- }
- #linkedin{
-    color: #0077b5;
+  font-size: 35px;
+   color: black;
+   margin: 10px;
+   margin-top: 30px;
+}
+#facebook{
+   color: #3b5998;
+}
+#instagram{
+   color: black;
+   
+}
+#linkedin{
+  color: #0077b5;
 }
 #twitter{
-    color: #55acee;
+  color: #55acee;
 }
 #telegram{
-    color: #00405d;
+  color: #00405d;
 }
- .subcontent  #facebook:hover{
-    transform: translateY(-10px);
-    color:  #1877f2 ;
+.subcontent  #facebook:hover{
+  transform: translateY(-10px);
+  color:  #1877f2 ;
 }
 .subcontent  #instagram:hover{
-    transform: translateY(-10px);
-    color:  #c32aa3 ;
+  transform: translateY(-10px);
+  color:  #c32aa3 ;
 }
 .subcontent  #linkedin:hover{
-    transform: translateY(-10px);
-    color: #dd5143;
+  transform: translateY(-10px);
+  color: #dd5143;
 }
 .subcontent  #twitter:hover{
-    transform: translateY(-10px);
-    color: #14171A;
+  transform: translateY(-10px);
+  color: #14171A;
 }
 .subcontent  #telegram:hover{
-    transform: translateY(-10px);
-    color:  #0088cc ;
-    
+  transform: translateY(-10px);
+  color:  #0088cc ;
+  
 }
 /* content left*/
 
 .email-id{
-    width: fit-content;
-    margin-top: -20px ;
-    
-   /* border-bottom: 1px solid;*/
-    font-size: 18px;
-    font-style: italic;
-    padding-top: -1px;
-    margin-left: 15px;
-    color: black;
+  width: fit-content;
+  margin-top: -20px ;
+  
+ /* border-bottom: 1px solid;*/
+  font-size: 18px;
+  font-style: italic;
+  padding-top: -1px;
+  margin-left: 15px;
+  color: black;
 }
 .mobile-no{
-    width: fit-content;
-    margin-top: -28px ;
-    margin-left: 15px;
-    padding-top: -10px;
-    font-size: 18px;
-    color: black;
+  width: fit-content;
+  margin-top: -28px ;
+  margin-left: 15px;
+  padding-top: -10px;
+  font-size: 18px;
+  color: black;
 }
 .far{
-    font-size: 23px;
-    display: flex;
-    margin-top: 25px;
-    margin-left: -20px;
-    color: black;
+  font-size: 23px;
+  display: flex;
+  margin-top: 25px;
+  margin-left: -20px;
+  color: black;
 }
 .fas{
-    font-size: 25px;
-    margin-left: -20px; 
-    margin-top: 30px; 
+  font-size: 25px;
+  margin-left: -20px; 
+  margin-top: 30px; 
 }
 
 /* Newsletter */
 
- input {
-    padding: .8rem 1rem;
-    width: 40%;
-    border-radius: 5rem;
-    outline: none;
-    border: .1rem solid #d1d1d1;
-    font-size: .7rem;
-  }
-  .subscribe-btn {
-    padding: .8rem 2rem;
-    border-radius: 4rem;
-    background: linear-gradient(90deg, #ff9966, #ff5e62);
-    color: #fff;
-    font-size: .7rem;
-    
-    border: none;
-    outline: none;
-    cursor: pointer;
-    
-  }
+input {
+  padding: .8rem 1rem;
+  width: 40%;
+  border-radius: 5rem;
+  outline: none;
+  border: .1rem solid #d1d1d1;
+  font-size: .7rem;
+}
+.subscribe-btn {
+  padding: .8rem 2rem;
+  border-radius: 4rem;
+  background: linear-gradient(90deg, #ff9966, #ff5e62);
+  color: #fff;
+  font-size: .7rem;
+  
+  border: none;
+  outline: none;
+  cursor: pointer;
+  
+}
 
 /* copyright */
 
-  .copyright p{
-      font-size: 20px;
-      margin-top: 40px;
-  }
- @media (max-width:1000px) {
-   .bottom-content{
-       width: 75%;
-       position: absolute;
-       bottom: 65px;
-       left:12.5% ;
-       height: 300px;  
-   } 
- }
- @media (max-width:600px) {
-   .bottom-content{
-       width: 80%;
-       position: absolute;
-       margin: 10px;
-       bottom: -100px;
-       left:9% ;  
-       height: 500px;
-      background-color:  #fff;
-   }
-   
-   
-   .copyright p{
-    font-size: 15px;
+.copyright p{
+    font-size: 20px;
     margin-top: 40px;
 }
+@media (max-width:1000px) {
+ .bottom-content{
+     width: 75%;
+     position: absolute;
+     bottom: 65px;
+     left:12.5% ;
+     height: 300px;  
+ } 
+}
+@media (max-width:600px) {
+ .bottom-content{
+     width: 80%;
+     position: absolute;
+     margin: 10px;
+     bottom: -100px;
+     left:9% ;  
+     height: 500px;
+    background-color:  #fff;
  }
+ 
+ 
+ .copyright p{
+  font-size: 15px;
+  margin-top: 40px;
+}
+}
