@@ -53,7 +53,7 @@
       .swiper-slide {
         background-position: center;
         background-size: cover;
-        width: 21rem;
+        width: 22rem;
         height: 27rem;
         background-color: white;
         box-shadow: 0px 15px 25px rgba(90, 90, 194, 0.609);
@@ -66,7 +66,17 @@
          margin: auto;
          overflow: hidden;
      }
-     
+     .caro-card a{
+        display: block;
+        height: 100%;
+        width: 100%;
+     }
+     .caro-card  img{
+        height: 95%;
+        width: 100%;
+         margin-top: 5%;
+       
+     }
      
       .swiper-3d .swiper-slide-shadow-left {
         background-image: none;
